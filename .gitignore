@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# the flag survey is a separate gated dataset; fetch it with
+# scripts/fetch_data.py
+/data
+
+# everything generated lands here
+/outputs/
+
+# model weights are distributed on HuggingFace, never committed
+*.pth
+*.pt
+*.safetensors

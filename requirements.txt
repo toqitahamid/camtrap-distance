@@ -1,0 +1,22 @@
+# Versions this code was verified against (aarch64, Python 3.11, CUDA 12.8).
+# Lower bounds rather than hard pins, since the exact aarch64 wheels are not
+# available on every platform. The pinned set is recorded in the comments.
+#
+# verified: torch 2.11.0+cu128, transformers 5.12.1, numpy 2.4.4,
+#           opencv-python 5.0.0.93, pillow 12.2.0, scipy 1.17.1,
+#           safetensors 0.8.0, matplotlib 3.11.0, romatch 0.1.2
+#
+# Install torch first, picking the build for your CUDA version from pytorch.org.
+
+torch>=2.4
+transformers>=4.44
+numpy>=1.26
+opencv-python>=4.9
+pillow>=10.0
+scipy>=1.11
+safetensors>=0.4
+matplotlib>=3.8
+pytest>=7.4
+
+# Dense matcher used by the aligned-reference path (not on PyPI):
+#   pip install "git+https://github.com/Parskatt/RoMa"

@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying dataset, please cite the paper below."
+title: "Reference-Conditioned Distance Intervals on Unseen Camera Traps"
+abstract: >-
+  Code for turning one surveyed flag photo per trail camera into dense metric
+  distance maps with 90% prediction intervals on later flag-free photos, using a
+  4-parameter ground-plane calibration and a reference-conditioned network
+  fine-tuned from Depth Anything V2.
+type: software
+license: MIT
+authors:
+  - family-names: Sarker
+    given-names: Toqi Tahamid
+    orcid: "https://orcid.org/0000-0003-2482-8059"
+    affiliation: Southern Illinois University Carbondale
+  - family-names: Islam
+    given-names: Taminul
+    orcid: "https://orcid.org/0000-0002-7803-4564"
+    affiliation: Southern Illinois University Carbondale
+  - family-names: Morelock
+    given-names: Seth J.
+    orcid: "https://orcid.org/0009-0003-1657-1895"
+    affiliation: Southern Illinois University Carbondale
+  - family-names: Bastille-Rousseau
+    given-names: Guillaume
+    orcid: "https://orcid.org/0000-0001-6799-639X"
+    affiliation: Southern Illinois University Carbondale
+  - family-names: Ahmed
+    given-names: Khaled R.
+    orcid: "https://orcid.org/0000-0002-3707-4316"
+    affiliation: Southern Illinois University Carbondale
+preferred-citation:
+  type: conference-paper
+  title: "Reference-Conditioned Distance Intervals on Unseen Camera Traps"
+  year: 2026
+  collection-title: "Computer Vision for Ecology Workshop, European Conference on Computer Vision (ECCV)"
+  authors:
+    - family-names: Sarker
+      given-names: Toqi Tahamid
+      orcid: "https://orcid.org/0000-0003-2482-8059"
+    - family-names: Islam
+      given-names: Taminul
+      orcid: "https://orcid.org/0000-0002-7803-4564"
+    - family-names: Morelock
+      given-names: Seth J.
+      orcid: "https://orcid.org/0009-0003-1657-1895"
+    - family-names: Bastille-Rousseau
+      given-names: Guillaume
+      orcid: "https://orcid.org/0000-0001-6799-639X"
+    - family-names: Ahmed
+      given-names: Khaled R.
+      orcid: "https://orcid.org/0000-0002-3707-4316"
